@@ -2,25 +2,29 @@
 
 > react comparison chart
 
-[![NPM](https://img.shields.io/npm/v/comparison-chart.svg)](https://www.npmjs.com/package/comparison-chart) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-## Install
-
-```bash
-npm install --save comparison-chart
-```
 
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'comparison-chart'
-import 'comparison-chart/dist/index.css'
+import ComparisonChart from 'comparison-chart'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (  
+      <ComparisonChart 
+        height='3px'
+        leftColor='#ff6961'
+        rightColor='#45b6fe'
+        title='Field Goals'
+        leftDisplay='(42%) 38/90'
+        rightDisplay='(46%) 40/88'
+        leftValue={42}
+        rightValue={46} />
+      )
   }
 }
 ```
