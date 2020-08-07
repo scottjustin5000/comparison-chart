@@ -1,10 +1,23 @@
 import React from 'react'
 
-import { ExampleComponent } from 'comparison-chart'
+import { ComparisonChart } from 'comparison-chart'
 import 'comparison-chart/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+  <div style={{padding:'10px'}}>
+    <div style={{width:'100%'}}>
+      <ComparisonChart 
+        height='3px'
+        leftColor='#ff6961'
+        rightColor='#45b6fe'
+        title='Field Goals'
+        leftDisplay='(42%) 38/90'
+        rightDisplay='(46%) 40/88'
+        leftValue={42}
+        rightValue={46} />
+    </div>
+  </div>)
 }
 
 export default App
