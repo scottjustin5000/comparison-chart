@@ -6,7 +6,7 @@
 
 ## Example
 
-[here](http://sj5000-percentage-chart.s3-website-us-east-1.amazonaws.com/)
+[here](http://sj5000-comparison-chart.s3-website-us-east-1.amazonaws.com/)
 
 ## Usage
 
