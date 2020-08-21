@@ -4,6 +4,9 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Example
+
+[here](http://sj5000-percentage-chart.s3-website-us-east-1.amazonaws.com/)
 
 ## Usage
 
@@ -29,6 +32,4 @@ class Example extends Component {
 }
 ```
 
-## Example
 
-[here](http://sj5000-percentage-chart.s3-website-us-east-1.amazonaws.com/)
